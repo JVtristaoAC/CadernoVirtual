@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CadernoVirtual.Terceiro.Medio3.EM3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Ed. Física" x:Name="EdFis3" Clicked="EdFis3_Clicked" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Text="Física" x:Name="Fis3" Clicked="Fis3_Clicked" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Text="Inglês" x:Name="ing3" Clicked="ing3_Clicked" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <Button Text="Português" x:Name="Port3" Clicked="Port3_Clicked" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Text="Matemática" x:Name="Mat3" Clicked="Mat3_Clicked" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Text="Filosofia" x:Name="Filo3" Clicked="Filo3_Clicked" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+               
+                <Button Text="Biologia" x:Name="Bio3" Clicked="Bio3_Clicked" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Text="Geografia" x:Name="Geo3" Clicked="Geo3_Clicked" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <Button Text="História" x:Name="His3" Clicked="His3_Clicked" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Text="Química" x:Name="Qui3" Clicked="Qui3_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+
+
+
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

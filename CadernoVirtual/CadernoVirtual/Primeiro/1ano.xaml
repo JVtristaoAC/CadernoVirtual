@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CadernoVirtual.Primeiro._1ano">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Primeiro Ano" HorizontalOptions="Center"/>
+
+            <Button Text="Esino médio" x:Name="btnEM1" Clicked="btnEM1_Clicked" HorizontalOptions="Center"/>
+            <Button Text="Ensino Técnico" x:Name="btnET1" Clicked="btnET1_Clicked" HorizontalOptions="Center"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

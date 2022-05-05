@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CadernoVirtual.Segundo.Medio2.EM2">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Ed. Física" x:Name="EdFis2" Clicked="EdFis2_Clicked" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="Física" x:Name="Fis2" Clicked="Fis2_Clicked" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="Inglês" x:Name="ing2" Clicked="ing2_Clicked" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <Button Text="Português" x:Name="Port2" Clicked="Port2_Clicked" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="Matemática" x:Name="Mat2" Clicked="Mat2_Clicked" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="Sociologia" x:Name="Socio2" Clicked="Socio2_Clicked" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <Button Text="Filosofia" x:Name="Filo2" Clicked="Filo2_Clicked" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="Biologia" x:Name="Bio2" Clicked="Bio2_Clicked" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="Geografia" x:Name="Geo2" Clicked="Geo2_Clicked" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <Button Text="História" x:Name="His2" Clicked="His2_Clicked" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="Química" x:Name="Qui2" Clicked="Qui2_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="Ética" x:Name="Etica2" Clicked="Etica2_Clicked" Grid.Row="3" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+
+
+
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

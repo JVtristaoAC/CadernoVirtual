@@ -8,6 +8,8 @@
     <ContentPage.Content>
         <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
             <StackLayout>
+                <Label Text="Sociologia" HorizontalOptions="Center" FontSize="Title" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
+                <Label Text="- Como a humanidade se organiza em sociedade, quais são seus hábitos, costumes e como se relaciona entre si." HorizontalOptions="Start" FontSize="Body" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
 
             </StackLayout>
         </Frame>

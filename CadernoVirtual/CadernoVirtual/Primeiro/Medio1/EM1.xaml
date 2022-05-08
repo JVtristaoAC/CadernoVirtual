@@ -6,8 +6,10 @@
              Title="Caderno Virtual 1ºAno">
     <ContentPage.Content>
         <ScrollView>
+            <!-- O ScrollView é a barrinha que fica do lado para o usuário poder subir e descer com a tela -->
             <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
                 <Grid>
+                    <!-- è definido uma grid com 4 linhas e duas colunas -->
                     <Grid.RowDefinitions>
                         <RowDefinition/>
                         <RowDefinition/>
@@ -22,6 +24,8 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
 
+                    <!-- Aqui definimos qual a posição que nosso elemento vai ocupar na grid como 
+                         o Grid.Row definindo as linhas e o Grid.Column Definindo a coluna-->
                     <Button Text="Ed. Física" x:Name="EdFis1" Clicked="EdFis1_Clicked" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
                     <Button Text="Física" x:Name="Fis1" Clicked="Fis1_Clicked" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
 
@@ -40,6 +44,7 @@
                     <Button Text="Química" x:Name="Qui1" Clicked="Qui1_Clicked" Grid.Row="5" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
 
                 </Grid>
+                
             </Frame>
         </ScrollView>
     </ContentPage.Content>

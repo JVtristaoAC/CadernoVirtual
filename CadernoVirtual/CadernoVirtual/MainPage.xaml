@@ -1,24 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CadernoVirtual.MainPage"
+             x:Class="CadernoVirtual.MainPage" 
              BackgroundColor="#7289DA"
              Title="Caderno Virtual" >
-
-    <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
-
-        <ScrollView>
+    <!--
+    BackgroundColor="#7289DA" (Muda a cor de Fundo da Página)
+    Title="Caderno Virtual" (insere o Titulo da Pág na Navigation Bar)
+    -->
+    <ScrollView>
+        <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
+            <!--    Cria um container com a cor definida,  CornerRadius="10"(Define o arredondamento da borda)
+                Margin="10"( defina a Margem como 10), Padding="10" (Pra n deixar o conteudo grudado ao frame)
+        -->
             <StackLayout>
 
 
-            <Label Text="Escolha o ano desejado:" HorizontalOptions="Center" FontSize="Title" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
+                <Label Text="Escolha o ano desejado:" HorizontalOptions="Center" FontSize="Title" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
+                <!--Um Label simples definindo o texto -->
+                <Button Text="1º Ano" x:Name="btn_1ano" Clicked="btn_1ano_Clicked" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+                <!--Um Botão Simples Alinhado Verticalmente e horizontalmente no centro e Pedindo uma largura de 200-->
+                <Button Text="2º Ano" x:Name="btn_2ano" Clicked="btn_2ano_Clicked" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+                <Button Text="3º Ano" x:Name="btn_3ano" Clicked="btn_3ano_Clicked" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
 
-            <Button Text="1º Ano" x:Name="btn_1ano" Clicked="btn_1ano_Clicked" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
-            <Button Text="2º Ano" x:Name="btn_2ano" Clicked="btn_2ano_Clicked" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
-            <Button Text="3º Ano" x:Name="btn_3ano" Clicked="btn_3ano_Clicked" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
-
-    </StackLayout>
-           
-        </ScrollView>
-    </Frame>
+            </StackLayout>
+        </Frame>
+    </ScrollView>
 </ContentPage>

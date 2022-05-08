@@ -19,13 +19,17 @@ namespace CadernoVirtual
 
         private async void btn_1ano_Clicked(object sender, EventArgs e)
         {
+            //Dentro de um botão definido como assincrono colocamos um try catch caso ocorra algum erro na navegação 
             try
             {
                 await Navigation.PushAsync(new Primeiro._1ano());
+                // Esperando a resposta do usuario ele coloca a página 1ano que se encontra na pasta Primeiro em cima da
+                // Pagina atual
             }
             catch (Exception ex)
             {
                 await DisplayAlert("Ocorreu um erro, Tente novamente mais tarde", ex.Message, "OK");
+                //Cria um alerta caso ocorra algum erro entre a navegação
             }
             
   

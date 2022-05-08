@@ -8,6 +8,8 @@
     <ContentPage.Content>
         <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
             <StackLayout>
+                <Label Text="Etíca" HorizontalOptions="Center" FontSize="Title" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
+                <Label Text="- Relações humanas na sociedade e em locais de trabalho" HorizontalOptions="Start" FontSize="Body" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
 
             </StackLayout>
         </Frame>

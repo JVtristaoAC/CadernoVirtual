@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   
-    <color name="launcher_background">#FFFFFF</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="launcher_background">#FFFFFF</color> <!--aqui estou definindo a cor de fundo do icone do app-->
+    <color name="colorPrimary">#3F51B5</color> <!--aqui estou definindo a cor da Action Bar-->
+    <color name="colorPrimaryDark">#303F9F</color> <!--Aqui a cor da notificação-->
+    <color name="colorAccent">#FF4081</color> <!--aqui a cor do texto por padrão-->
 </resources>

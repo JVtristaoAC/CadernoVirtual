@@ -4,11 +4,9 @@
   <style name="MainTheme" parent="MainTheme.Base">
       </style>
   <style name="MainTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
-    <item name="windowNoTitle">true</item>
-    <item name="windowActionBar">false</item>
-    <item name="colorPrimary">#7289DA</item>
-    <item name="colorPrimaryDark">#7289DA</item>
-    <item name="colorAccent">#99AAB5</item>
+    <item name="colorPrimary">#7289DA</item> <!--aqui estou definindo a cor da Action bar-->
+    <item name="colorPrimaryDark">#7289DA</item> <!--aqui a cor da notificação-->
+    <item name="colorAccent">#99AAB5</item> <!--aqui a cor do texto--> 
   </style>
   
 

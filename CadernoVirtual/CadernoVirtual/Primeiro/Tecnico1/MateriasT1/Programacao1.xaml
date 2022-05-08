@@ -7,6 +7,8 @@
     <ContentPage.Content>
         <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
             <StackLayout>
+                <Label Text="Programação" HorizontalOptions="Center" FontSize="Title" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
+                <Label Text="- Aprendendo a lógica e introdução a linguagem de programação" HorizontalOptions="Start" FontSize="Body" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
 
             </StackLayout>
         </Frame>

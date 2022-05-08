@@ -8,6 +8,8 @@
     <ContentPage.Content>
         <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
             <StackLayout>
+                <Label Text="Biologia" HorizontalOptions="Center" FontSize="Title" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
+                <Label Text="- Vírus e doenças, Fungos e suas estruturas, Vegetais, Moluscos e Anelideos, Anfibios Repteis e Mamiferos, Sistemas do corpo humano" HorizontalOptions="Start" FontSize="Body" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
 
             </StackLayout>
         </Frame>

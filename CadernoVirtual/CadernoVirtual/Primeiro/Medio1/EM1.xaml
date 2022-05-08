@@ -1,45 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CadernoVirtual.Primeiro.Medio1.EM1">
+             x:Class="CadernoVirtual.Primeiro.Medio1.EM1"
+             BackgroundColor="#7289DA"
+             Title="Caderno Virtual 1ºAno">
     <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            
-            
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
+        <ScrollView>
+            <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
 
-            <Button Text="Ed. Física" x:Name="EdFis1" Clicked="EdFis1_Clicked" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="Física" x:Name="Fis1" Clicked="Fis1_Clicked" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="Inglês" x:Name="ing1" Clicked="ing1_Clicked" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
 
-            <Button Text="Português" x:Name="Port1" Clicked="Port1_Clicked" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="Matemática" x:Name="Mat1" Clicked="Mat1_Clicked" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="Arte" x:Name="Arte1" Clicked="Arte1_Clicked" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
 
-            <Button Text="Filosofia" x:Name="Filosofia1" Clicked="Filosofia1_Clicked" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="Biologia" x:Name="Bio1" Clicked="Bio1_Clicked" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="Geografia" x:Name="Geo1" Clicked="Geo1_Clicked" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Text="Ed. Física" x:Name="EdFis1" Clicked="EdFis1_Clicked" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+                    <Button Text="Física" x:Name="Fis1" Clicked="Fis1_Clicked" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
 
-            <Button Text="História" x:Name="His1" Clicked="His1_Clicked" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="Química" x:Name="Qui1" Clicked="Qui1_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-      
-            
-            
-            
-            
-            
-            
+                    <Button Text="Inglês" x:Name="ing1" Clicked="ing1_Clicked" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+                    <Button Text="Português" x:Name="Port1" Clicked="Port1_Clicked" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
 
-        </Grid>
+                    <Button Text="Matemática" x:Name="Mat1" Clicked="Mat1_Clicked" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+                    <Button Text="Arte" x:Name="Arte1" Clicked="Arte1_Clicked" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+
+                    <Button Text="Filosofia" x:Name="Filosofia1" Clicked="Filosofia1_Clicked" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+                    <Button Text="Biologia" x:Name="Bio1" Clicked="Bio1_Clicked" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+
+                    <Button Text="Geografia" x:Name="Geo1" Clicked="Geo1_Clicked" Grid.Row="4" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+                    <Button Text="História" x:Name="His1" Clicked="His1_Clicked" Grid.Row="4" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+
+                    <Button Text="Química" x:Name="Qui1" Clicked="Qui1_Clicked" Grid.Row="5" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+
+                </Grid>
+            </Frame>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CadernoVirtual.Terceiro.Medio3.MateriasM3.Portugues">
+             x:Class="CadernoVirtual.Terceiro.Medio3.MateriasM3.Portugues"
+             BackgroundColor="#7289DA"
+             Title="Caderno Virtual 3ºAno" >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
+            <StackLayout>
+
+            </StackLayout>
+        </Frame>
     </ContentPage.Content>
 </ContentPage>

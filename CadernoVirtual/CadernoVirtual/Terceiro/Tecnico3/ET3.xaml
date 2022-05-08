@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CadernoVirtual.Terceiro.Tecnico3.ET3">
+             x:Class="CadernoVirtual.Terceiro.Tecnico3.ET3"
+             BackgroundColor="#7289DA"
+             Title="Caderno Virtual 3ºAno" >
     <ContentPage.Content>
-        <StackLayout>
-            <Grid>
+        <ScrollView>
+            <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
+                <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
@@ -16,25 +18,18 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
-                    <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Button Text="Programação Web III" x:Name="Web3" Clicked="Web3_Clicked" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-                <Button Text="Qualidade de Software" x:Name="QT3" Clicked="QT3_Clicked" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-                <Button Text="TCC" x:Name="TCC3" Clicked="TCC3_Clicked" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
-
-                <Button Text="Internet" x:Name="Net3" Clicked="Net3_Clicked" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-                <Button Text="Programação Mobile II" x:Name="Mob3" Clicked="Mob3_Clicked" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-
-
-
-
-
-
-
-
+            <Button Text="Web III" x:Name="Web3" Clicked="Web3_Clicked" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="End" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" Padding="10" WidthRequest="200" />
+            <Button Text="Qualidade de Software" x:Name="QT3" Clicked="QT3_Clicked" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="End" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Padding="10" Margin="10" WidthRequest="200" />
+                
+            <Button Text="TCC" x:Name="TCC3" Clicked="TCC3_Clicked" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+            <Button Text="Internet" x:Name="Net3" Clicked="Net3_Clicked" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+           
+            <Button Text="Mobile II" x:Name="Mob3" Clicked="Mob3_Clicked" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Start" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
 
             </Grid>
-        </StackLayout>
+        </Frame>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

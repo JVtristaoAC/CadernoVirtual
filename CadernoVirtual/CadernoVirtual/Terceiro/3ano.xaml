@@ -1,14 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CadernoVirtual.Terceiro._3ano">
+             x:Class="CadernoVirtual.Terceiro._3ano"
+             BackgroundColor="#7289DA"
+             Title="Caderno Virtual 3ºAno" >
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Terceiro Ano" HorizontalOptions="Center"/>
+        <ScrollView>
+            <Frame BackgroundColor="#2c2f33" CornerRadius="10" Margin="10" Padding="10">
+            <StackLayout>
+                <Label Text="Escolha o Curso:" HorizontalOptions="Center" FontSize="Title" TextColor="#99AAB5" Margin="55" FontAttributes="Bold"/>
 
-            <Button Text="Esino médio" x:Name="btnEM3" Clicked="btnEM3_Clicked" HorizontalOptions="Center"/>
-            <Button Text="Ensino Técnico" x:Name="btnET3" Clicked="btnET3_Clicked" HorizontalOptions="Center"/>
+                <Button Text="Esino médio" x:Name="btnEM3" Clicked="btnEM3_Clicked"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
+                <Button Text="Ensino Técnico" x:Name="btnET3" Clicked="btnET3_Clicked" HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23272a" BackgroundColor="#7289DA" CornerRadius="10" Margin="10" WidthRequest="200"/>
 
-        </StackLayout>
+            </StackLayout>
+        </Frame>
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>
